@@ -1,0 +1,10 @@
+create database pms;
+use pms;
+
+create table PmsDepDetails (
+ DepartmentIdPk int not null,
+ DepartmentName VARCHAR(30) NOT NULL,
+ DepartmentLocation VARCHAR(30) NOT NULL,
+ DepartmentExtension int NOT NULL,
+ primary key (DepartmentIdPk)
+ );
