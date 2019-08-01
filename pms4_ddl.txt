@@ -1,0 +1,8 @@
+create database pms;
+use pms;
+ drop table PMS_PRODUCT;
+create table PMS_PRODUCT(
+PRODUCT_ID VARCHAR(5) PRIMARY KEY,
+PRODUCT_NAME VARCHAR(30) NOT NULL,
+DEPARTMENT_ID int8
+);
